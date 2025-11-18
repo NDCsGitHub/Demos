@@ -1,9 +1,15 @@
 import React from 'react' // this is not required for next js
+import Hello from '../../components/Hello'
+
 
 const Home = () => {
   console.log('component type') // this will log on the server side, but next16 will indicate what type of componnent this is
   return (
-    <div>hey</div>
+    <main>
+      <div>hey</div>
+      <Hello />
+    </main>
+
   )
 }
 
